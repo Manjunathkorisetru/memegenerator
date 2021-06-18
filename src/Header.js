@@ -1,13 +1,11 @@
 import React from "react";
+import Trollface from "./Images/Trollface.png";
 
 function Header() {
   return (
     <div>
       <header>
-        <img
-          src="http://www.pngall.com/wp-content/uploads/2016/05/Trollface.png "
-          alt="Problem?"
-        />
+        <img src={Trollface} alt="Problem?" />
         <p>Meme Generator</p>
       </header>
     </div>
