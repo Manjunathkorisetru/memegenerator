@@ -6,6 +6,7 @@ function Header() {
     <div>
       <header>
         <img src={Trollface} alt="Problem?" />
+
         <p>Meme Generator</p>
       </header>
     </div>
